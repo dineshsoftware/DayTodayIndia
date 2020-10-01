@@ -98,6 +98,7 @@ public class FullscreenNews extends AppCompatActivity {
                     public void onComplete(@NonNull Task task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(FullscreenNews.this, "Data Inserted Successfully", Toast.LENGTH_SHORT).show();
+                            Log.e("check","Datat inserted");
                         } else {
                             Toast.makeText(FullscreenNews.this, "Data not Inserted", Toast.LENGTH_SHORT).show();
                         }
